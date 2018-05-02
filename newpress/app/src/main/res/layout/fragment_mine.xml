@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main_color_pink">
+    <include layout="@layout/toolbar_right"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_distance_1"
+                android:background="@color/bg_home"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/lin_fragment_mine_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/margin_distance_1"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                android:paddingTop="@dimen/margin_distance_1"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/mine_iv_head"
+                    android:layout_width="120px"
+                    android:layout_height="120px"
+                    android:layout_marginRight="@dimen/dimen_13"
+                    android:src="@drawable/default_head"
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_width="1dp"/>
+
+                <LinearLayout
+                    android:id="@+id/lin_personal_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_mine_fragment_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/margin_distance_0"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_color_deep_gray"
+                        android:textSize="@dimen/text_size_3"/>
+
+                    <TextView
+                        android:id="@+id/tv_mine_fragment_eight_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_distance_0"
+                        android:text=""
+                        android:textColor="@color/text_color_deep_gray"
+                        android:textSize="@dimen/text_size_1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_distance_1"
+                android:background="@color/bg_home"
+                />
+
+            <LinearLayout
+                android:id="@+id/lin_mine_fragment_distribute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dimen_13"
+                    android:paddingTop="@dimen/dimen_13"
+                    android:text="我的发布"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_0"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1"/>
+            </LinearLayout>
+
+            <View
+                style="@style/line_style"/>
+
+            <LinearLayout
+                android:id="@+id/lin_mine_fragment_focus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dimen_13"
+                    android:paddingTop="@dimen/dimen_13"
+                    android:text="我的关注"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_0"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1"/>
+            </LinearLayout>
+
+            <View style="@style/line_style"/>
+
+            <LinearLayout
+                android:id="@+id/lin_mine_fragment_baojia_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dimen_13"
+                    android:paddingTop="@dimen/dimen_13"
+                    android:text="报价订单"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_0"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1"/>
+
+            </LinearLayout>
+
+            <View style="@style/line_style"/>
+
+            <LinearLayout
+                android:id="@+id/lin_mine_fragment_my_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dimen_13"
+                    android:paddingTop="@dimen/dimen_13"
+                    android:text="我的订单"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_0"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1"/>
+
+            </LinearLayout>
+
+            <View style="@style/line_style"/>
+
+
+            <LinearLayout
+                android:id="@+id/lin_mine_fragment_my_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dimen_13"
+                    android:paddingTop="@dimen/dimen_13"
+                    android:text="我的钱包"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_mine_fragment_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_0"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_distance_1"
+                android:background="@color/bg_home"
+                />
+
+            <LinearLayout
+                android:id="@+id/lin_mine_fragment_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_distance_1"
+                android:paddingRight="@dimen/margin_distance_1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_1"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="@dimen/dimen_13"
+                    android:paddingTop="@dimen/dimen_13"
+                    android:text="系统设置"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_mine_fragment_jobs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/margin_distance_0"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/bg_home"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

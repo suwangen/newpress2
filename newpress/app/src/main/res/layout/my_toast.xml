@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/shape_grey_translate"
+              android:fitsSystemWindows="true"
+              android:paddingLeft="@dimen/margin_distance_3"
+              android:paddingRight="@dimen/margin_distance_3"
+    >
+
+    <TextView
+        android:id="@+id/tv_toast_promt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_distance_3"
+        android:layout_marginRight="@dimen/margin_distance_3"
+        android:paddingLeft="@dimen/margin_distance_3"
+        android:paddingRight="@dimen/margin_distance_3"
+        android:layout_marginTop="@dimen/margin_distance_1"
+        android:layout_marginBottom="@dimen/margin_distance_1"
+        android:text="成功"
+        android:textSize="15sp"
+        android:textColor="@color/bg_white"
+        />
+
+</LinearLayout>

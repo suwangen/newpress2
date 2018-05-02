@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_item_recharge_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_stroke_gray"
+        android:text="100分钟"
+        android:gravity="center"
+        android:paddingTop="@dimen/margin_distance_2"
+        android:paddingBottom="@dimen/margin_distance_2"
+        android:textColor="@color/text_color_gray"
+        android:textSize="@dimen/text_size_2" />
+
+</LinearLayout>

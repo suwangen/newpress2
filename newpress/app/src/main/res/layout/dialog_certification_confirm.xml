@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+              android:background="@color/bg_white"
+              android:paddingLeft="@dimen/dimen_13"
+              android:paddingRight="@dimen/dimen_13"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/dialog_certification_head"
+        android:drawablePadding="@dimen/margin_distance_1"
+        android:layout_marginBottom="@dimen/dimen_40"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:layout_gravity="center_horizontal"
+        android:text="通过实名认证有以下优势"
+        android:textSize="@dimen/text_size_2"
+        android:textColor="@color/text_color_deep_gray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:drawableTop="@drawable/dialog_certification_renzheng"
+            android:gravity="center"
+            android:text="认证标签"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1"/>
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:drawableTop="@drawable/dialog_certification_writer"
+            android:gravity="center"
+            android:text="当作者"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1"/>
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:drawableTop="@drawable/dialog_certification_tearcher"
+            android:gravity="center"
+            android:text="当讲师"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1"/>
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:drawableTop="@drawable/dialog_certification_fees_circle"
+            android:gravity="center"
+            android:text="开通收费圈子"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dimen_40"
+        android:paddingBottom="@dimen/dimen_40"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_certification_renzheng_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_distance_1"
+            android:paddingTop="@dimen/margin_distance_1"
+            android:text="暂不认证"
+            android:layout_marginRight="@dimen/dimen_40"
+            android:background="@drawable/shape_out_grey_inner_white_round"
+            android:textColor="@color/text_color_gray"
+            android:textSize="@dimen/text_size_3" />
+
+        <TextView
+            android:id="@+id/tv_certification_renzheng_yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_distance_1"
+            android:paddingTop="@dimen/margin_distance_1"
+            android:text="马上认证"
+            android:background="@drawable/shape_graduate"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/text_size_3" />
+
+    </LinearLayout>
+
+</LinearLayout>

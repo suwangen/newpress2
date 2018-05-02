@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchAndMatch.Vertical"
+    android:background="@color/bg_home"
+    android:fitsSystemWindows="true">
+
+  <include layout="@layout/toolbar_common"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin_left"
+                android:layout_marginRight="@dimen/common_margin_right"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/nick_tv_current_"
+                    android:paddingTop="@dimen/common_margin_left"
+                    android:paddingBottom="@dimen/common_margin_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/current_nick_name"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2" />
+
+                <TextView
+                    android:id="@+id/nick_tv_current"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/common_margin_left"
+                    android:paddingBottom="@dimen/common_margin_left"
+                    android:layout_marginLeft="@dimen/margin_distance_3"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1" />
+            </LinearLayout>
+
+            <View style="@style/line_style" />
+
+            <LinearLayout
+                android:id="@+id/lin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin_left"
+                android:layout_marginRight="@dimen/common_margin_right"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/nick_tv_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/common_margin_left"
+                    android:paddingBottom="@dimen/common_margin_left"
+                    android:gravity="center_vertical"
+                    android:text="@string/input_new_nick_name"
+                    android:textColor="@color/text_color_deep_gray"
+                    android:textSize="@dimen/text_size_2" />
+
+                <EditText
+                    android:id="@+id/nick_edt_new"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/common_margin_left"
+                    android:paddingBottom="@dimen/common_margin_left"
+                    android:layout_marginLeft="@dimen/margin_distance_3"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/input_new_nick_name"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:textColorHint="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_1" />
+            </LinearLayout>
+
+            <View style="@style/line_style" />
+
+            <TextView
+                android:id="@+id/nick_tv_used"
+                style="@style/MatchAndWrap"
+                android:layout_marginTop="@dimen/margin_distance_3"
+                android:gravity="center_horizontal"
+                android:text="@string/used_nick_name"
+                android:textColor="@color/text_color_orange"
+                android:textSize="@dimen/text_size_1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                style="@style/MatchAndMatch.Vertical"
+                android:gravity="bottom">
+
+                <Button
+                    android:id="@+id/nick_btn_confirm"
+                    style="@style/CommitButton"
+                    android:layout_marginBottom="65dp"
+                    android:layout_marginLeft="@dimen/common_margin_left"
+                    android:layout_marginRight="@dimen/common_margin_right"
+                    android:text="@string/save_changes" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

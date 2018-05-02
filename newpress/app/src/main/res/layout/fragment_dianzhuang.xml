@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color_pink"
+        android:paddingTop="@dimen/margin_toolbar_height"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="90px"
+            android:text="筛选"
+            android:textColor="@color/bg_white"
+            android:gravity="center"
+            android:drawableRight="@drawable/arrow_down"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:layout_marginRight="@dimen/margin_distance_2"
+            android:layout_marginLeft="@dimen/margin_distance_1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+
+        <include
+            layout="@layout/toolbar_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_distance_2"
+            android:layout_marginRight="@dimen/common_margin_left"
+            android:text="列表"
+            android:textSize="@dimen/text_right_title"
+            android:textColor="@color/text_color_white"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="417">
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@color/bg_white"/>
+
+
+    </FrameLayout>
+</LinearLayout>

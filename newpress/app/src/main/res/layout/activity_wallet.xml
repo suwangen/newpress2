@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_common"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_home"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_white"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/margin_distance_3"
+                android:paddingTop="@dimen/margin_distance_3"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:text="我的余额(元)"
+                        android:textColor="@color/text_color_light_gray"
+                        android:textSize="@dimen/text_size_2"/>
+                    <TextView
+                        android:id="@+id/tv_wallet_balance_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.00"
+                        android:layout_marginTop="@dimen/margin_distance_1"
+                        android:layout_marginBottom="@dimen/margin_distance_1"
+                        android:textColor="@color/bg_black"
+                        android:textSize="@dimen/text_size_6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="查看明细"
+                        android:textColor="@color/main_color_pink"
+                        android:textSize="@dimen/text_size_1"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/bg_home"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_wallet_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/edt_padding"
+                    android:paddingTop="@dimen/edt_padding"
+                    android:background="@drawable/shape_out_main_inner_main"
+                    android:layout_marginTop="@dimen/margin_distance_3"
+                    android:layout_marginLeft="@dimen/margin_distance_1"
+                    android:layout_marginRight="@dimen/margin_distance_1"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_3"
+                    android:textColor="@color/bg_white"
+                    android:text="充值" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/edt_padding"
+                    android:paddingTop="@dimen/edt_padding"
+                    android:background="@drawable/shape_out_main_inner_grey"
+                    android:layout_marginTop="@dimen/margin_distance_1"
+                    android:layout_marginLeft="@dimen/margin_distance_1"
+                    android:layout_marginRight="@dimen/margin_distance_1"
+                    android:textColor="@color/main_color_pink"
+                    android:gravity="center"
+                    android:textSize="@dimen/text_size_3"
+                    android:text="提现" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        style="@style/MatchAndWrap.Vertical"
+        android:id="@+id/lin_bottom">
+
+    </LinearLayout>
+</LinearLayout>

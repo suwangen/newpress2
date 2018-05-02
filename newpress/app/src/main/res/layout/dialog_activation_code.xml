@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="250dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/dialog_bg_activation_code"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_default_address_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_distance_1"
+        android:layout_marginTop="@dimen/margin_distance_1"
+        android:text="激活码"
+        android:gravity="center"
+        android:textColor="@color/bg_white"
+        android:textSize="@dimen/text_size_31" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dimen_40"
+        android:layout_marginRight="@dimen/dimen_40"
+        android:background="@color/line_color" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_distance_1"
+        android:text="请输入您的激活码\n(相同类型的激活码只能使用一次)\n（此激活码 仅有7天使用期限）"
+        android:gravity="center"
+        android:textColor="@color/bg_white"
+        android:textSize="@dimen/text_size_1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_distance_3"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/dialog_xiantqao_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000"
+            android:gravity="center"
+            android:textColor="@color/text_color_pink"
+            android:textSize="@dimen/text_size_6" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="颗仙桃"
+            android:layout_marginLeft="@dimen/margin_distance_0"
+            android:textColor="@color/bg_black"
+            android:textSize="@dimen/text_size_31" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_dialog_default_address_pay_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_distance_1"
+        android:layout_marginLeft="@dimen/dimen_40"
+        android:layout_marginRight="@dimen/dimen_40"
+        android:background="@drawable/shape_out_red_inner_red"
+        android:singleLine="true"
+        android:hint="请输入激活码"
+        android:layout_marginBottom="@dimen/margin_distance_2"
+        android:layout_marginTop="@dimen/margin_distance_1"
+        android:textColorHint="@color/bg_white"
+        android:textColor="@color/bg_white"
+        android:textSize="@dimen/text_size_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_distance_1"
+        android:orientation="horizontal" >
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/dialog_default_address_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_distance_4"
+            android:paddingRight="@dimen/margin_distance_4"
+            android:paddingBottom="@dimen/margin_distance_05"
+            android:paddingTop="@dimen/margin_distance_05"
+            android:text="@string/confirm"
+            android:background="@drawable/dialog_activation_code_confirm"
+            android:textColor="@color/bg_white"
+            android:textSize="@dimen/text_size_31" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/dialog_default_address_cancele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/margin_distance_4"
+            android:paddingRight="@dimen/margin_distance_4"
+            android:paddingBottom="@dimen/margin_distance_05"
+            android:paddingTop="@dimen/margin_distance_05"
+            android:text="@string/cancel"
+            android:background="@drawable/dialog_activation_code_cancle"
+            android:textColor="@color/bg_black"
+            android:textSize="@dimen/text_size_31" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A000000"
+    android:fitsSystemWindows="true"
+    android:gravity="bottom"
+    android:orientation="vertical"
+     >
+    <View
+        android:id="@+id/view_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="#f7f7f7"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_list_cancel"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin_left"
+            android:paddingBottom="@dimen/common_margin_left"
+            android:paddingTop="@dimen/common_margin_left"
+            android:text="取消"
+            android:textColor="@color/main_color_pink"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_pop_numberpicker_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/bg_black"
+            android:textSize="@dimen/text_size_5"
+            android:text="选择"
+            android:paddingBottom="@dimen/common_margin_left"
+            android:paddingTop="@dimen/common_margin_left"
+            />
+
+        <TextView
+            android:id="@+id/iv_pop_birthday_confirm"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingBottom="@dimen/common_margin_left"
+            android:paddingTop="@dimen/common_margin_left"
+            android:layout_marginRight="@dimen/common_margin_left"
+            android:textColor="@color/main_color_pink"
+            android:textSize="16sp"
+            android:text="完成"
+            />
+    </LinearLayout>
+    <!--<ListView
+        android:id="@+id/lv_pop_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:background="#f7f7f7"
+        android:listSelector="#00000000"
+        android:scrollbars="none" />-->
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/lv_pop_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </kankan.wheel.widget.WheelView>
+</LinearLayout>

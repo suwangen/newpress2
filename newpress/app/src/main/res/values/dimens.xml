@@ -1,0 +1,85 @@
+<resources>
+
+
+
+    <dimen name="header_height">360px</dimen>
+    <dimen name="mine_item">94px</dimen>
+
+
+
+
+
+    <dimen name="title_height">48dp</dimen>
+
+
+    <dimen name="common_margin_left">20px</dimen>
+    <dimen name="common_margin_right">20px</dimen>
+
+
+    <dimen name="margin_toolbar_height">44px</dimen>
+    <dimen name="margin_distance_0">10px</dimen>
+    <dimen name="margin_distance_05">15px</dimen>
+    <dimen name="margin_distance_1">20px</dimen>
+    <dimen name="margin_distance_2">30px</dimen>
+    <dimen name="margin_distance_35">35px</dimen>
+    <dimen name="margin_distance_4">40px</dimen>
+    <dimen name="margin_distance_3">50px</dimen>
+    <dimen name="margin_distance_65">65px</dimen>
+    <dimen name="margin_distance_90">90px</dimen>
+
+    <!-- 普通字体 -->
+    <dimen name="text_size_1">24px</dimen>
+    <dimen name="text_size_2">28px</dimen>
+    <dimen name="text_size_3">32px</dimen>
+    <dimen name="text_size_31">36px</dimen>
+    <dimen name="text_size_4">40px</dimen>
+    <dimen name="text_size_5">44px</dimen>
+    <dimen name="text_size_6">60px</dimen>
+
+    <!-- title字体大小-->
+    <dimen name="text_middle_title">36px</dimen>
+    <dimen name="text_right_title">28px</dimen>
+    <dimen name="toolbar_height">92px</dimen>
+
+
+    <!-- edittext   padding -->
+    <dimen name="edt_padding">24px</dimen>
+
+    <dimen name="global_dialog_padding">30px</dimen>
+
+    <!--发现栏item高度-->
+    <dimen name="found_item_height">90px</dimen>
+
+
+
+    <!-- 上拉加载下拉刷新-->
+    <dimen name="refresh_header_height_twitter">160px</dimen>
+    <dimen name="load_more_footer_height_twitter">120px</dimen>
+    <dimen name="load_more_footer_height_classic">120px</dimen>
+
+
+
+
+    <dimen name="dimen_exam_top">-24dp</dimen>
+    <dimen name="dimen_dialog_top">-20dp</dimen>
+    <dimen name="dimen_expression_top">-60dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_13">13dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_26">26dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_85">85dp</dimen>
+    <dimen name="dimen_105">105dp</dimen>
+    <dimen name="dimen_127">127dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+</resources>

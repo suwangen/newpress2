@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchAndMatch.Vertical"
+              android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar_common"/>
+
+
+    <View style="@style/line_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@color/bg_white"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="@string/push_messages"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <ImageView
+            android:id="@+id/toggle_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/margin_distance_1"
+            android:paddingTop="@dimen/margin_distance_1"
+            android:src="@drawable/selector_setting_push"
+            />
+    </RelativeLayout>
+
+    <View style="@style/line_style" android:visibility="gone"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_distance_1"
+        android:visibility="gone"
+        android:background="@color/bg_home"
+        />
+    <RelativeLayout
+        android:id="@+id/set_rl_version_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="@string/version_update"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/set_tv_version_update"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/set_rl_account_safe"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="账号安全"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/set_tv_account_safe"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/set_rl_secret"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="隐私设置"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/set_tv_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/set_rl_clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="@string/clear_cache"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/set_tv_clear_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/set_rl_clear_chat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="清除聊天记录"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/set_tv_clear_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <TextView
+        android:id="@+id/set_tv_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:drawableRight="@drawable/arrow_right"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:text="@string/feedback"
+        android:visibility="gone"
+        android:textColor="@color/text_color_deep_gray"
+        android:textSize="@dimen/text_size_2"
+        android:background="@drawable/selector_list_bg" />
+
+    <View style="@style/line_style"  android:visibility="gone"/>
+
+
+
+    <TextView
+        android:id="@+id/set_tv_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:drawableRight="@drawable/arrow_right"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:text="@string/about_us"
+        android:visibility="gone"
+        android:textColor="@color/text_color_deep_gray"
+        android:textSize="@dimen/text_size_2"
+        android:background="@drawable/selector_list_bg"/>
+
+    <View style="@style/line_style" android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/set_tv_a_key_praise"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:drawableRight="@drawable/arrow_right"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:text="@string/a_key_praise"
+        android:textColor="@color/text_color_little_black"
+        android:textSize="@dimen/text_size_2"
+        android:background="@drawable/selector_list_bg"
+        android:visibility="gone"/>
+
+    <View style="@style/line_style" android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_home"
+        >
+
+        <Button
+            android:id="@+id/info_btn_login_out"
+            style="@style/CommitButton"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="@dimen/common_margin_left"
+            android:layout_marginRight="@dimen/common_margin_right"
+            android:text="@string/login_out" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/MatchAndWrap.Vertical"
+        android:id="@+id/lin_bottom">
+
+    </LinearLayout>
+</LinearLayout>

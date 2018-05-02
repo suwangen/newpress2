@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/item_notice_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="16"
+        android:ellipsize="end"
+        android:text="标题"
+        android:layout_margin="@dimen/margin_distance_1"
+        android:textColor="@color/text_color_deep_gray"
+        android:textSize="@dimen/text_size_2"/>
+
+    <TextView
+        android:id="@+id/item_notice_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:text="2017"
+        android:layout_marginRight="@dimen/margin_distance_1"
+        android:layout_marginBottom="@dimen/margin_distance_1"
+        android:textColor="@color/text_color_light_gray"
+        android:textSize="@dimen/text_size_1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"
+        />
+</LinearLayout>

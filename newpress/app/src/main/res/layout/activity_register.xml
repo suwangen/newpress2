@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchAndMatch.Vertical"
+              android:fitsSystemWindows="true">
+    <include layout="@layout/toolbar_right"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_home"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/margin_distance_3"
+        android:paddingLeft="@dimen/margin_distance_2"
+        android:paddingBottom="@dimen/margin_distance_3"
+        >
+        <TextView
+            android:id="@+id/tv_login_type_accont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_distance_2"
+            android:paddingTop="@dimen/margin_distance_2"
+            android:text="账号注册"
+            android:textColor="@color/text_color_little_black"
+            android:textSize="@dimen/text_size_4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_distance_2"
+        android:paddingRight="@dimen/margin_distance_2"
+        android:background="@color/bg_white"
+        >
+
+        <EditText
+            android:id="@+id/register_edt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="85px"
+            android:hint="请输入手机号码"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColor="@color/text_color_gray"
+            android:textColorHint="@color/text_color_light_gray"
+            android:maxLength="11"
+            android:textSize="@dimen/text_size_2"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_home"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85px"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/margin_distance_1"
+            >
+            <EditText
+                android:id="@+id/register_edt_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:drawablePadding="@dimen/margin_distance_0"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="@color/text_color_gray"
+                android:textColorHint="@color/text_color_light_gray"
+                android:hint="@string/input_security_code"
+                android:maxLength="11"
+                android:textSize="@dimen/text_size_2"
+                />
+            <TextView
+                android:id="@+id/register_btn_security_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_distance_0"
+                android:paddingTop="@dimen/margin_distance_0"
+                android:paddingRight="@dimen/margin_distance_2"
+                android:paddingLeft="@dimen/margin_distance_2"
+                android:background="@drawable/shape_out_grey_inner_grey"
+                android:gravity="center"
+                android:text="@string/get_security_code"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/text_size_2" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_home"
+            />
+        <EditText
+            android:id="@+id/register_edt_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="85px"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColor="@color/text_color_gray"
+            android:textColorHint="@color/text_color_light_gray"
+            android:hint="请输入密码"
+            android:maxLength="11"
+            android:textSize="@dimen/text_size_2"
+            android:inputType="textPassword"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_home"
+            />
+
+
+        <Button
+            android:id="@+id/register_btn_submit"
+            style="@style/CommitButton"
+            android:layout_marginTop="@dimen/dimen_50"
+            android:text="注册"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_distance_2"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册即表示同意"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/text_size_2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="《用户注册协议》"
+                android:textColor="@color/text_color_blue"
+                android:textSize="@dimen/text_size_2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MatchAndWrap.Vertical"
+        android:id="@+id/lin_bottom">
+
+    </LinearLayout>
+
+
+</LinearLayout>

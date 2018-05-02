@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bannerlayout"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.shensou.newpress.widget.banner.InfiniteViewPager
+        android:id="@+id/banner_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <com.shensou.newpress.widget.banner.CirclePageIndicator
+        android:id="@+id/banner_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:fillColor="@color/main_color_pink"
+        app:pageColor="#bcbcbc"
+        app:centered="true"
+        app:strokeColor="@color/bg_translate"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="@dimen/margin_distance_1"/>
+
+    </FrameLayout>
+
+</LinearLayout>

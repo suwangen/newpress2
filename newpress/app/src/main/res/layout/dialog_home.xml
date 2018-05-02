@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/home_guoyu"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/margin_distance_1"
+        />
+    <ImageView
+        android:id="@+id/dialog_home_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_close"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color_pink"
+        android:paddingTop="@dimen/margin_toolbar_height"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="90px"
+            android:layout_height="90px"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/back"
+            android:scaleType="center"/>
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/toolbar_search"/>
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_distance_2"
+            android:layout_marginRight="@dimen/common_margin_left"
+            android:text="地图"
+            android:textSize="@dimen/text_right_title"
+            android:textColor="@color/text_color_white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_distance_1"
+        android:paddingTop="@dimen/margin_distance_1"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_mine_fragment_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/margin_distance_0"
+                android:drawableRight="@drawable/arrow_down_black"
+                android:gravity="center_horizontal"
+                android:text="所属区域"
+                android:textColor="@color/text_color_deep_gray"
+                android:textSize="@dimen/text_size_3"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/bg_home"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/margin_distance_0"
+                android:drawableRight="@drawable/arrow_down_black"
+                android:gravity="center_horizontal"
+                android:text="筛选"
+                android:textColor="@color/text_color_deep_gray"
+                android:textSize="@dimen/text_size_3"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/bg_home"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/margin_distance_0"
+                android:drawableRight="@drawable/arrow_down_black"
+                android:gravity="center_horizontal"
+                android:text="综合排序"
+                android:textColor="@color/text_color_deep_gray"
+                android:textSize="@dimen/text_size_3"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_distance_1"
+        android:background="@color/bg_home"
+        />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipeRefreshLayout">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_white"
+            android:layout_marginTop="@dimen/margin_distance_1"
+            />
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color_pink">#ff1919</color>
+    <color name="pink_light">#fff9f9</color>
+    <color name="pink">#fef1eb</color>
+    <color name="line_green">#66b2b2</color>
+    <color name="primary">#c32c35</color>
+    <color name="btn_regist_pink">#feddcc</color>
+
+
+    <color name="pager_bg">#CA000000</color>
+    <color name="selected_bg">#44000000</color>
+    <color name="black_40">#282828</color>
+    <color name="common_primary">#f3f3f3</color>
+
+    <color name="text_40">#282828</color>
+    <color name="text_80">#505050</color>
+    <color name="text_120">#787878</color>
+
+    <color name="bg_home">#f1f2f3</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_list">#f8f8f8</color>
+    <color name="bg_translate">#00ffffff</color>
+    <!--透明度为70%的黑色-->
+    <color name="bg_black_70">#4f000000</color>
+    <color name="bg_green">#8dd817</color>
+    <color name="bg_red">#f84d5d</color>
+    <color name="bg_yellow">#fbc729</color>
+    <color name="bg_orange">#ff9641</color>
+    <color name="bg_refresh">#ffb351</color>
+    <color name="bottom_bg">#aaaaaa</color>
+
+
+
+
+
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_black">#333333</color>
+    <color name="text_color_gray">#999999</color>
+    <color name="text_color_deep_gray">#666666</color>
+    <color name="text_color_pink">#ff4967</color>
+    <color name="text_color_pink1">#c15f7d</color>
+    <color name="text_color_little_black">#333333</color>
+    <color name="text_color_light_gray">#cccccc</color>
+    <color name="text_color_blue">#54c6ff</color>
+    <color name="text_color_green">#72bc11</color>
+    <color name="text_color_orange">#ff9e4a</color>
+    <color name="text_color_red">#ee3232</color>
+    <color name="text_color_package_blue">#a2d5ea</color>
+    <color name="text_color_package_pink">#feb3c0</color>
+    <color name="text_color_package_yellow">#f5d07a</color>
+    <color name="text_color_yellow">#fe9101</color>
+
+
+
+    <color name="line_color">#fee6db</color>
+    <color name="line_color_light">#f8feff</color>
+
+    <color name="share_dialog_item">#9A9A9A</color>
+
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+</resources>

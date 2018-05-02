@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchAndMatch.Vertical"
+    android:background="@color/bg_white"
+              android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar_right"/>
+
+    <View style="@style/line_style"/>
+    
+    <EditText 
+        android:id="@+id/feedback_edt_content"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_margin="@dimen/common_margin_left"
+        android:padding="@dimen/margin_distance_1"
+        android:hint="@string/feedback_description"
+        android:textSize="@dimen/text_size_2"
+        android:textColor="@color/text_color_black"
+        android:textColorHint="@color/text_color_gray"
+        android:background="@drawable/edt_bg_unselected"
+        android:gravity="left|top"
+        android:lineSpacingExtra="1dp"
+        android:lineSpacingMultiplier="1.2"/>
+
+    
+
+</LinearLayout>

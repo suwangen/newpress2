@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchAndMatch.Vertical"
+              android:id="@+id/lin_textstyle"
+              android:background="@color/pink" >
+
+
+
+    <include layout="@layout/toolbar_common"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_home"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    <TextView
+        android:id="@+id/tv_menber_time_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/arrow_down_black"
+        android:layout_marginTop="@dimen/margin_distance_2"
+        android:layout_marginLeft="@dimen/margin_distance_1"
+        android:layout_marginRight="@dimen/margin_distance_1"
+        android:padding="@dimen/margin_distance_2"
+        android:textSize="@dimen/text_size_2"
+        android:background="@drawable/shape_out_pink_inner_white"
+        android:textColor="@color/text_color_deep_gray"
+        android:textColorHint="@color/text_color_gray"
+        android:hint="请选择时长"
+        />
+    <TextView
+        android:id="@+id/tv_withdraw_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_distance_2"
+        android:layout_marginLeft="@dimen/margin_distance_1"
+        android:layout_marginRight="@dimen/margin_distance_1"
+        android:textSize="@dimen/text_size_2"
+        android:background="@null"
+        android:textColor="@color/text_color_deep_gray"
+        android:text="金额:30元"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/margin_distance_1"
+        android:layout_marginRight="@dimen/margin_distance_1"
+        android:background="@color/line_color"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/CommitButton"
+            android:layout_marginLeft="@dimen/common_margin_left"
+            android:layout_marginRight="@dimen/common_margin_left"
+            android:text="支付" />
+    </LinearLayout>
+
+</LinearLayout>

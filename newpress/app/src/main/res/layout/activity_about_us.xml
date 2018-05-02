@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchAndMatch.Vertical"
+    android:background="@color/bg_white"
+    android:fitsSystemWindows="true">
+
+   <include layout="@layout/toolbar_common"/>
+
+    <View style="@style/line_style"/>
+
+    <ScrollView style="@style/MatchAndMatch" >
+
+        <LinearLayout
+            style="@style/MatchAndMatch.Vertical"
+            android:paddingLeft="@dimen/common_margin_left"
+            android:paddingRight="@dimen/common_margin_right" >
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="168px"
+                android:layout_height="168px"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/margin_distance_1"
+                android:layout_marginTop="25dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/login_logo" />
+            <LinearLayout
+                style="@style/MatchAndWrap.Vertical"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                 >
+
+                <TextView
+                    style="@style/WrapAndWrap"
+                    android:text="@string/app_name"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/text_size_3" />
+
+                <TextView
+                    android:id="@+id/about_us_tv_version"
+                    style="@style/WrapAndWrap"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_2" />
+            </LinearLayout>
+            <View style="@style/line_style" />
+
+
+
+            <TextView
+                style="@style/MatchAndWrap"
+                android:layout_marginBottom="@dimen/margin_distance_2"
+                android:layout_marginTop="@dimen/margin_distance_2"
+                android:lineSpacingExtra="2dp"
+                android:visibility="gone"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/about_us_description"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/text_size_2" />
+
+            <View style="@style/line_style" android:visibility="gone"/>
+
+            <TextView
+                style="@style/MatchAndWrap"
+                android:layout_marginBottom="@dimen/margin_distance_2"
+                android:layout_marginTop="@dimen/margin_distance_2"
+                android:text="Contact Us:"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/text_size_3" />
+            <TextView
+                android:id="@+id/tv_personal_info_tel"
+                style="@style/MatchAndWrap"
+                android:layout_marginBottom="@dimen/margin_distance_0"
+                android:text="电话：0592-5369982"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/text_size_2" />
+            <TextView
+                android:id="@+id/tv_personal_info_web"
+                style="@style/MatchAndWrap"
+                android:layout_marginBottom="@dimen/margin_distance_0"
+                android:text="官网：www.moneypx.com"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/text_size_2" />
+            <TextView
+                android:id="@+id/tv_personal_info_weixin"
+                style="@style/MatchAndWrap"
+                android:text="微信号：厦门银路咨询xm_ylzx"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/text_size_2" />
+            <TextView
+                style="@style/WrapAndWrap"
+                android:text="@string/internet_address"
+                android:textSize="@dimen/text_size_2" 
+                android:textColor="@color/text_color_black"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/about_us_tv_net_address"
+                style="@style/WrapAndWrap"
+                android:text="@string/internet_site"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/text_size_2"
+                android:visibility="gone"/>
+
+            <TextView
+                style="@style/WrapAndWrap"
+                android:layout_marginTop="15dp"
+                android:text="@string/consumer_hotline"
+                android:textSize="@dimen/text_size_2" 
+                android:textColor="@color/text_color_black"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/about_us_tv_hotline"
+                style="@style/WrapAndWrap"
+                android:layout_marginTop="5dp"
+                android:text="@string/hotline_phone"
+                android:textColor="@color/text_color_gray"
+                android:textSize="@dimen/text_size_2"
+                android:visibility="gone"/>
+
+            <TextView
+                style="@style/WrapAndWrap"
+                android:layout_marginTop="15dp"
+                android:text="@string/cooperation_talks"
+                android:textSize="@dimen/text_size_2" 
+                android:textColor="@color/text_color_black"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                style="@style/WrapAndWrap.Horizontal"
+                android:layout_marginTop="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/about_us_tv_email"
+                    style="@style/WrapAndWrap"
+                    android:text="@string/cooperation_talks_email"
+                    android:textColor="@color/text_color_blue"
+                    android:textSize="@dimen/text_size_2"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/about_us_tv_talks_phone"
+                    style="@style/WrapAndWrap"
+                    android:text="@string/cooperation_talks_phone"
+                    android:textColor="@color/text_color_gray"
+                    android:textSize="@dimen/text_size_2" />
+            </LinearLayout>
+            
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

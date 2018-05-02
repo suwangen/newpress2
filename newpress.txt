@@ -1,0 +1,9 @@
+keyAlias: newpress  密码：ss123456ss
+
+svn链接：svn://118.89.60.184/newServiceANDROID/
+
+账户：swg
+密码：Swg123456
+
+微信开放平台：https://open.weixin.qq.com 
+账户：hxdwzly@163.com，密：zhysh123

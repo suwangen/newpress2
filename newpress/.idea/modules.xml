@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libzxing-master/libzxing-master.iml" filepath="$PROJECT_DIR$/libzxing-master/libzxing-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mrecyclerview/mrecyclerview.iml" filepath="$PROJECT_DIR$/mrecyclerview/mrecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newpress.iml" filepath="$PROJECT_DIR$/newpress.iml" />
+    </modules>
+  </component>
+</project>

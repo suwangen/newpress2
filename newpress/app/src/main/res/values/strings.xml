@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">newpress</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="home">首页</string>
+    <string name="personal_center">个人中心</string>
+
+
+    <string name="clear_all">清空</string>
+
+
+
+
+    <string name="quit">退出</string>
+    <string name="login_or_register">登录/注册</string>
+    <string name="reservation_menu">预留菜单</string>
+
+
+    <string name="setting">设置</string>
+
+    <!-- 登录 -->
+    <string name="login">登录</string>
+    <string name="input_account">会员名</string>
+    <string name="input_pwd">密码</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="please_input_pwd">请输入密码</string>
+
+
+    <!-- 注册 -->
+    <string name="register">注册</string>
+    <string name="input_phone">请输入您的电话号码</string>
+    <string name="input_security_code">请输入验证码</string>
+    <string name="get_security_code">发送验证码</string>
+    <string name="confirm_register">确认注册</string>
+    <string name="input_name">请输入您的名字</string>
+    <string name="input_remark">请输入内容</string>
+    <string name="input_time">请输入预约时间</string>
+
+    <!-- 忘记密码 -->
+    <string name="find_pwd">找回密码？</string>
+    <string name="verification_mobile">验证手机</string>
+    <string name="send_again">重新发送</string>
+    <string name="submit">提交</string>
+    <string name="input_message_code">输入短信提示的验证号码</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="reset_new_pwd">重新设置密码</string>
+    <string name="input_password_format">请设置您的密码6～16位，非纯数字、不含空格</string>
+    <string name="confirm">确定</string>
+    <string name="input_pwd_again">再次输入密码</string>
+    <string name="input_6_or_16_pwd">请输入6-16位的密码</string>
+
+    <!-- mine_setting -->
+    <string name="push_messages">消息推送</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="version_update">更新版本</string>
+    <string name="about_us">关于我们</string>
+    <string name="a_key_praise">一键好评</string>
+    <string name="new_comment">最新评论</string>
+    <string name="no_comment">暂无评论</string>
+    <string name="user_comment">用户评论</string>
+    <string name="input_comment_content">请输入评论内容</string>
+
+    <string name="share_to">分享到</string>
+    <string name="platform_qq">QQ</string>
+    <string name="platform_copy_link">复制链接</string>
+    <string name="platform_more_option">更多</string>
+    <string name="platform_sina">微博</string>
+    <string name="platform_weichat">微信</string>
+    <string name="platform_weichat_circle">朋友圈</string>
+    <string name="share_title">V2EX分享</string>
+    <string name="tip_start_share">开始分享…</string>
+    <string name="tip_share_done">分享完成</string>
+
+    <!-- 个人资料 -->
+    <string name="head_portrait">头像</string>
+    <string name="nick_name">昵称</string>
+    <string name="email">邮箱</string>
+    <string name="mobile_phone">手机号</string>
+    <string name="please_input_mobile_phone">请输入手机号</string>
+    <string name="passward_change">密码修改</string>
+    <string name="name_verified">实名认证</string>
+    <string name="login_out">退出登录</string>
+    <string name="personal_info">个人资料</string>
+    <string name="album">相册</string>
+    <string name="select_head">选择头像</string>
+    <string name="take_photo">拍照</string>
+    <string name="name">姓名</string>
+    <string name="sexs">性别</string>
+    <string name="department">部门</string>
+    <string name="classess">班级</string>
+    <string name="dorm_num">宿舍号</string>
+    <string name="detail_addr">详细地址</string>
+    <string name="jobs">职务</string>
+    <string name="birth_date">出生日期</string>
+    <string name="mobile">手机：</string>
+    <string name="defaults">默认</string>
+    <string name="defaults_address">默认地址</string>
+    <string name="set_defaults">设为默认</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="order_fill">订单填写</string>
+    <string name="order_detail">订单详情</string>
+    <string name="choose_address">选择收货地址</string>
+    <string name="confirm_exchange">确认兑换</string>
+    <string name="appointment_time">预约时间</string>
+    <string name="remark">备注</string>
+    <string name="phone">电话号码</string>
+    <string name="tel_phone">手机号码</string>
+    <string name="commit">提交</string>
+
+
+
+    <string name="images">图片</string>
+    <string name="done">完成</string>
+    <string name="done_with_count">完成(%1$d/%2$d)</string>
+    <string name="image_index">%1$d/%2$d</string>
+    <string name="undo">撤消</string>
+    <string name="deleted_a_photo">删除了一张图片</string>
+    <string name="confirm_to_delete">确认删除？</string>
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+    <string name="all_image">所有图片</string>
+    <string name="over_max_count_tips">你最多可以选择%1$d张图片</string>
+
+
+
+    <!-- 修改昵称 -->
+    <string name="change_nick_name">修改昵称</string>
+    <string name="current_nick_name">当前昵称&#160;&#160;&#160;&#160;</string>
+    <string name="input_new_nick_name">输入新昵称</string>
+    <string name="used_nick_name">昵称已被使用，请更换</string>
+
+    <!-- 密码修改 -->
+    <string name="inital_pwd">初始密码</string>
+    <string name="input_inital_pwd">输入初始密码</string>
+    <string name="new_pwd">新 密 码</string>
+    <string name="input_new_pwd">输入新密码</string>
+    <string name="confirm_pwd">确认密码</string>
+    <string name="input_confirm_pwd">确认输入的新密码</string>
+    <string name="save_changes">保存修改</string>
+
+
+    <!-- 意见反馈 -->
+    <string name="subimt">提交</string>
+    <string name="feedback_description">您的谏言是我们最好的动力,感谢您的支持,请在这输入您的想法以及建议!</string>
+    <string name="input_feedback">请输入反馈内容</string>
+
+    <!-- 关于我们 -->
+    <string name="about_us_description">&#160;&#160;&#160;&#160;&#160;路易卡丹酒庄，源自法国，来自欧洲，是能让舌尖跳舞的葡萄酒！ 我司成立于2006年，主运营法国原装进口红酒，旗下产业除路易卡丹酒庄外还有“五千年茶”、“红娘喜铺”、“大红庄”目前已在全国多个城市建立了自己的酒庄专卖店、茶叶专卖店，并与法国合资创办烟台路易卡丹酒庄酒厂。我司曾荣获2009-2013年建发厦门国际马拉松赛唯一指定接待用酒、中国海峡两岸将军书画展唯一指定接待用酒、中国新闻社60周年庆指定接待用酒、世界闽商理事会指定接待用酒等众多荣誉。人才要有伯乐赏识，好酒要与知己共饮。</string>
+    <string name="soft_version">软件版本：</string>
+    <string name="internet_address">网址</string>
+    <string name="internet_site">www.lykd999.com</string>
+    <string name="consumer_hotline">客服电话</string>
+    <string name="hotline_phone">0592-5661239 </string>
+    <string name="cooperation_talks">地址</string>
+    <string name="cooperation_talks_email">postmaster@xunyizhushou.com</string>
+    <string name="cooperation_talks_phone">福建省厦门市湖里区马垅路5号港威大厦</string>
+
+
+
+
+    <string name="loading">加载中，请稍后...</string>
+
+
+    <string name="network_anomaly">网络异常...</string>
+
+    <string name="rationale_camera">需要相机权限</string>
+    <string name="rationale_calendar_and_contacts">需要读取日历和联系人权限</string>
+    <string name="rationale_location">需要定位权限</string>
+    <string name="rationale_write">需要读取权限</string>
+    <string name="rationale">此功能必须要该权限，请在设置界面勾选</string>
+    <string name="rationale_title">权限申请</string>
+    <string name="baimao_all">所有</string>
+    <string name="baimao_confirm">确认</string>
+    <string name="baimao_cancel">取消</string>
+    <string name="baimao_agree">同意</string>
+    <string name="search">搜索</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <string name="pay_center">支付中心</string>
+    <string name="order_has_been_generated">订单已生成，待支付</string>
+    <string name="total_order">订单总额</string>
+    <string name="please_select_the_payment_method">请选择支付方式</string>
+    <string name="wechat_payment">微信支付</string>
+    <string name="alipay">支付宝</string>
+    <!-- 共享过度动画 -->
+    <string name="transition_photos">transition_animation_news_photos</string>
+
+    <string name="refresh_success">刷新成功</string>
+    <string name="refresh_failed">咦，好像出了点问题，再试一次</string>
+    <string name="pull_to_refresh_1">下拉查看最新</string>
+    <string name="pull_to_refresh_2">放开就可以看到啦</string>
+    <string name="pull_to_refresh_3">唔...要出来了…</string>
+    <string name="no_more">我是有底线的</string>
+    <string name="common_load_more">加载更多</string>
+    <string name="common_load_more_error">加载失败,点击重试</string>
+    <string name="no_record">什么都没有哦～</string>
+    <string name="toast_net_broken_cache">哦啊~手机网络不太顺畅哦</string>
+    <string name="toast_net_broken">Oh！网络不见了，请检查网络链接</string>
+    <string name="reload">重新加载</string>
+
+</resources>

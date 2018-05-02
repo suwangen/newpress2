@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_out_grey_inner_white"
+    android:fitsSystemWindows="true"
+              android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="1dp"
+            android:background="@color/main_color_pink"
+            />
+
+        <TextView
+            android:id="@+id/dialog_default_address_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_distance_1"
+            android:layout_marginRight="@dimen/margin_distance_1"
+            android:drawableLeft="@drawable/dialog_customer_servicer"
+            android:drawablePadding="@dimen/margin_distance_0"
+            android:gravity="center"
+            android:text="在线客服"
+            android:textColor="@color/main_color_pink"
+            android:textSize="@dimen/text_size_3"/>
+
+        <View
+            android:layout_width="35dp"
+            android:layout_height="1dp"
+            android:background="@color/main_color_pink"
+            />
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请拨打客服热线"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:textColor="@color/text_color_deep_gray"
+        android:textSize="@dimen/text_size_2" />
+    <TextView
+        android:id="@+id/tv_dialog_customer_servicer_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0592-5218333"
+        android:drawableLeft="@drawable/dialog_customer_service_phone"
+        android:drawablePadding="@dimen/margin_distance_0"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:textColor="@color/text_color_deep_gray"
+        android:textSize="@dimen/text_size_3" />
+</LinearLayout>

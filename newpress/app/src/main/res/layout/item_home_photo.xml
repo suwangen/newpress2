@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+              android:background="@color/pink_light"
+    android:paddingLeft="@dimen/margin_distance_1" >
+
+    <ImageView
+        android:id="@+id/iv_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_distance_1"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_yule" />
+
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="娱乐天下"
+        android:paddingTop="@dimen/margin_distance_1"
+        android:paddingBottom="@dimen/margin_distance_2"
+        android:background="@color/pink"
+        android:textSize="@dimen/text_size_3"
+         />
+
+</LinearLayout>

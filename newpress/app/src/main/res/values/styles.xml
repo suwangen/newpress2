@@ -1,0 +1,324 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="NotitleTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!-- 切换Activity动画效果 -->
+    <style name="AnimActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/FeelyouWindowAnimTheme</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="windowActionBar">false</item>
+        <!--<item name="android:windowBackground">@color/bg_home</item>-->
+        <!--<item name="android:textColorPrimary">@color/text_color_white</item>-->
+
+    </style>
+
+    <!-- 选择图片上传dialog -->
+    <style name="MyDialogStyle2" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+
+    <style name="FeelyouWindowAnimTheme" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_from_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_right</item>
+
+    </style>
+
+    <style name="TabTextSize">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="time_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/bg_white</item>
+    </style>
+
+
+
+
+    <!-- start ====================<<<<< 提交按钮   >>>>========================== -->
+    <style name="CommitButton" parent="MatchAndWrap">
+        <item name="android:background">@drawable/shape_commit_bg</item>
+        <item name="android:paddingBottom">@dimen/edt_padding</item>
+        <item name="android:paddingTop">@dimen/edt_padding</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+    </style>
+    <!-- start ====================<<<<< 提交按钮  圆形 >>>>========================== -->
+    <style name="CommitButtonRound" parent="MatchAndWrap">
+        <item name="android:background">@drawable/shape_commit_bg_round</item>
+        <item name="android:paddingBottom">@dimen/edt_padding</item>
+        <item name="android:paddingTop">@dimen/edt_padding</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+    </style>
+    <!-- 我的textivew样式 -->
+    <style name="mine_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_50</item>
+        <item name="android:paddingLeft">@dimen/common_margin_left</item>
+        <item name="android:paddingRight">@dimen/common_margin_left</item>
+        <item name="android:background">@drawable/selector_list_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+        <item name="android:drawablePadding">@dimen/margin_distance_1</item>
+        <item name="android:drawableRight">@drawable/arrow_right</item>
+    </style>
+    <!-- 我的textivew样式  -->
+
+
+
+
+
+
+
+
+
+    <style name="line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:paddingLeft">@dimen/common_margin_left</item>
+        <item name="android:paddingRight">@dimen/common_margin_right</item>
+        <item name="android:background">@color/bg_home</item>
+    </style>
+
+    <!-- start ====================<<<<< 分隔线 >>>>========================== -->
+    <style name="line_vertical_style">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <!-- end ====================<<<<< 分隔线 >>>>========================== -->
+
+    <!-- 首页底部菜单栏 -->
+    <style name="main_tab_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen_2</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/bg_white</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/home_btn_text_color</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+        <item name="android:drawablePadding">@dimen/dimen_2</item>
+    </style>
+    <!-- 首页底部菜单栏 -->
+
+
+
+    <style name="TopAndRight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/common_margin_right</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">@dimen/text_right_title</item>
+        <item name="android:padding">@dimen/margin_distance_0</item>t
+    </style>
+
+    <!--edittext样式  start-->
+    <style name="edittextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">96px</item>
+        <item name="android:background">@drawable/selector_edt_bg</item>
+        <item name="android:paddingLeft">@dimen/edt_padding</item>
+        <item name="android:textColor">@color/text_color_little_black</item>
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:drawablePadding">@dimen/margin_distance_1</item>
+
+
+    </style>
+    <style name="edittextStyle3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">96px</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">@dimen/margin_distance_2</item>
+        <item name="android:textColor">@color/text_color_little_black</item>
+        <item name="android:textColorHint">@color/text_color_gray</item>
+        <item name="android:textSize">@dimen/text_size_2</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:drawablePadding">@dimen/margin_distance_2</item>
+
+
+    </style>
+    <!--edittext样式  end-->
+    <style name="AnimationFade">
+
+        <!-- PopupWindow上下弹出的效果 -->
+        <item name="android:windowEnterAnimation">@anim/in_top_to_buttom</item>
+        <item name="android:windowExitAnimation">@anim/out_buttom_to_top</item>
+    </style>
+
+    <!--edittext样式  start-->
+    <style name="edittextStyle2">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">45dp</item>
+    <item name="android:background">@null</item>
+    <item name="android:layout_marginLeft">@dimen/margin_distance_3</item>
+    <item name="android:layout_marginRight">@dimen/margin_distance_3</item>
+    <item name="android:drawablePadding">@dimen/edt_padding</item>
+    <item name="android:textColor">@color/text_color_little_black</item>
+    <item name="android:textColorHint">@color/text_color_gray</item>
+    <item name="android:textSize">@dimen/text_size_2</item>
+    <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    <item name="android:gravity">center_vertical</item>
+
+    </style>
+    <!--edittext样式  end-->
+
+
+
+
+
+
+    <!-- start ================<<<<< width and height >>>>========================= -->
+    <style name="MatchAndMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchAndWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapAndMatch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapAndWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ZeroAndMatch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ZeroAndWrap">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchAndZero">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="WrapAndZero">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="MatchAndMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchAndMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchAndWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchAndWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapAndMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapAndMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapAndWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapAndWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ZeroAndMatch.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ZeroAndMatch.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ZeroAndWrap.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ZeroAndWrap.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WrapAndZero.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WrapAndZero.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MatchAndZero.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchAndZero.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- end ================<<<<< width and height >>>>========================= -->
+    <style name="j_timepopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/j_anim_enter_bottom</item> <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/j_anim_exit_bottom</item> <!-- 指定消失的动画xml -->
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

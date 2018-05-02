@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/MatchAndMatch.Vertical"
+              android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar_common"/>
+
+
+    <View style="@style/line_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="账号ID"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/account_tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/account_rl_bind_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="绑定手机"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/account_tv_bind_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/account_rl_bind_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="绑定微信"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/account_tv_bind_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/account_rl_modify_login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="修改登录密码"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/account_tv_modify_login_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+    <View style="@style/line_style" />
+    <RelativeLayout
+        android:id="@+id/account_rl_modify_pay_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/found_item_height"
+        android:paddingLeft="@dimen/common_margin_left"
+        android:paddingRight="@dimen/common_margin_right"
+        android:background="@drawable/selector_list_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:gravity="center_vertical"
+            android:text="设置支付密码"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_2" />
+
+        <TextView
+            android:id="@+id/account_tv_modify_pay_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/found_item_height"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="@dimen/margin_distance_1"
+            android:drawableRight="@drawable/arrow_right"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_color_deep_gray"
+            android:textSize="@dimen/text_size_1" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bg_home"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/MatchAndWrap.Vertical"
+        android:id="@+id/lin_bottom">
+
+    </LinearLayout>
+</LinearLayout>
